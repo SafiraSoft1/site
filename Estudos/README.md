@@ -4,7 +4,7 @@ Comprou o curso Web Moderno e ainda continua perdido com tantos assuntos apresen
 
 # APRESENTAÇÃO:
 
-Seção 1 - introdução.
+Seção 1 - introdução.  
 Seção 2 - Configuração de Ambiente.
 Após a apresentação, agora é pra valer! Aqui começam os estudos:
 
