@@ -10,8 +10,8 @@ Após a apresentação, agora é pra valer! Aqui começam os estudos:
 
 # **HTML E CSS:**
 
-Seção 13 - Conceitos sobre Web  
-Seção 14 - HTML  
+Seção 12 - Conceitos sobre Web  
+Seção 13 - HTML  
 Seção 14 - CSS  
 Não pule para as próximas etapas se não estiver familiarizado com os conceitos e conhecimento sobre HTML e CSS.
 
