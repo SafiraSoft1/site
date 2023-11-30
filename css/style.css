@@ -1,32 +1,70 @@
-header {
-    background-color: #333;
-    color: #fff;
-    padding-top: 10px;
-    padding-bottom: 30px;
+body {
+  margin: 0;
+}
+
+@keyframes degrade-animado {
+  0% {
+    background-position-x: 0%, 50% ;
   }
+
+  50% {
+    background-position-x:  50%, 100% ;
+  }
+
+  100% {
+    background-position-x: 100%, 50%;
+  }
+
+}
+
+.cabecalho {
+  animation: degrade-animado 3s  ;
+  background: linear-gradient(to right, #f4f7f8,#eaf7fc, #d2f1fa, #dbf5ff, #03bef7) repeat;
+  background-size: 300% 300%;
+  height: 100px;
+}
+
+.logo {
+  display: inline-block;
+  height: 190px;
+  margin-top: -45px;
+  margin-left: 50px;
+}
+
+.logo img{
+  height: 100%;
+}
+
+.menu {
+  display: inline-block;
+  height: 80px;
+  padding: 25px;
+  float: right;
+  align-items: center;
   
-  nav {
-    float: right;
-  }
+}
+
+
+.menu li {
+  display: inline-block;
+  padding: 0px 15px 0px 0px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.3em;
+  padding: 15px;
+  transform: scale(1.05);
+  transition: .6s;
+}
+
+.menu a:hover,
+.menu a::selection {
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  color:rgb(18, 126, 168);
   
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav li:last-child {
-    margin-left: 0;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-  }
+}
+
+
