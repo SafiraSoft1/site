@@ -23,7 +23,7 @@ body {
 
 .cabecalho {
   animation: degrade-animado 3s  ;
-  background: linear-gradient(to right, #f4f7f8,#eaf7fc, #d2f1fa, #dbf5ff, #44c8f0) repeat;
+  background-image: linear-gradient(to right, #f4f7f8,#eaf7fc, #d2f1fa, #dbf5ff, #44c8f0) ;
   background-size: 300% 300%;
   height: 100px;
 }
