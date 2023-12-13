@@ -75,7 +75,7 @@ body {
 footer{
   width: 100%;
   min-height: 300px;
-  background-image: linear-gradient(to right, rgb(103, 247, 239), rgb(240, 240, 240));
+  background-image: linear-gradient(to right, rgb(84, 207, 232), rgb(142, 216, 236));
   display: flex;
   justify-content: center;
   margin-top: 142px;
