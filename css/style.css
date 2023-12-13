@@ -70,6 +70,124 @@ body {
   color:rgb(18, 126, 168);
   
 }
+/*=======================Section========================*/
+.container1 {
+  display: flex;
+  transition: background-color 1s ease ;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.container1:hover{
+  background-color: #b0e9e4;
+}
+
+.container2 {
+  display: flex;
+  margin-top: 100px;
+}
+
+.container3 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.esquerdo1{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  height: 350px;
+  width: 550px;
+  font-family: 'ubuntu', sans-serif;    
+  text-align: justify;
+  font-size: 25px;
+}
+
+.direito1 img {
+  border-radius: 20px;
+  margin-left: 200px;
+  height: 350px;
+  width: 550px;
+}
+
+.esquerdo2{
+  margin-left: 200px;
+}
+
+.direito2{
+  border-radius: 20px;
+  font-family: 'ubuntu', sans-serif;
+  text-align: justify;
+  font-size: 25px;
+  margin-left: 250px;
+  transition: background-color 1s ease ;
+}
+
+.direito2:hover{
+  background-color: #b0e9e4;
+}
+
+.esquerdo3{
+  font-family: 'ubuntu', sans-serif;
+  text-align: justify;
+  font-size: 25px;
+  width: 600px;
+  transition: background-color 1s ease ;
+  border-radius: 20px;
+}
+
+.esquerdo3:hover{
+  background-color: #b0e9e4;
+}
+
+.direito3{
+  margin-left: 150px;
+}
+
+.produtos{
+  margin-top: 100px;
+  display: flex;
+}
+
+.comandaDigital{
+  margin-left: 200px;
+}
+
+.imagemComanda img{
+  height: 250px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.motax{
+  margin-left: 200px;
+}
+
+.imagemMotax img{
+  height: 250px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.apresentacaoComanda{
+  height: 200px;
+  width: 300px;
+  font-family: 'ubuntu', sans-serif;
+  text-align: justify;
+  margin-left: 25px;
+}
+
+.apresentacaoMotax{
+  height: 200px;
+  width: 300px;
+  font-family: 'ubuntu', sans-serif;
+  text-align: justify;
+  margin-left: 25px;
+}
+/*=======================Section========================*/
+
+
 /* ===================== Footer ======================  */
 
 footer{
