@@ -74,79 +74,113 @@ body {
 .container1 {
   display: flex;
   transition: background-color 1s ease ;
-  border-radius: 20px;
   margin-top: 100px;
 }
 
 .container1:hover{
-  background-color: #b0e9e4;
+  background-color: #8ED8EC;
 }
 
 .container2 {
   display: flex;
   margin-top: 100px;
+  transition: background-color 1s ease ;
+  height: 200px;
+}
+
+.container2:hover{
+  background-color: #8ED8EC;
 }
 
 .container3 {
   display: flex;
-  margin-top: 50px;
+  margin-top: 100px;
+  transition: background-color 1s ease ;
+}
+
+.container3:hover{ 
+  background-color: #8ED8EC;
 }
 
 .esquerdo1{
   display:inline-flex;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
-  height: 350px;
+  margin-left: 100px;
+  height: 250px;
   width: 550px;
   font-family: 'ubuntu', sans-serif;    
   text-align: justify;
   font-size: 25px;
 }
+.direito1 {
+  background-color: white;
+  margin-left: 100px;
+  width: 700px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
 
 .direito1 img {
-  border-radius: 20px;
-  margin-left: 200px;
-  height: 350px;
-  width: 550px;
+  margin-left: 50px;
+  height: 250px;
+  width: 450px;
 }
 
 .esquerdo2{
-  margin-left: 200px;
+  background-color: white;
+  width: 500px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
+.esquerdo2 img{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 250px;
+}
+
+
 .direito2{
+  height: 250px;
+  width: 550px;
   border-radius: 20px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
   font-size: 25px;
-  margin-left: 250px;
-  transition: background-color 1s ease ;
-}
-
-.direito2:hover{
-  background-color: #b0e9e4;
+  margin-left: 200px;
+  margin-top: -15px;
 }
 
 .esquerdo3{
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
   font-size: 25px;
-  width: 600px;
-  transition: background-color 1s ease ;
+  height: 250px;
+  width: 550px;
   border-radius: 20px;
-}
-
-.esquerdo3:hover{
-  background-color: #b0e9e4;
+  margin-left: 100px;
 }
 
 .direito3{
-  margin-left: 150px;
+  margin-left: 100px;
+  background-color: white;
+  width: 700px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.direito3 img{
+  margin-top: 40px;
+  margin-left: 50px;
+  width: 400px;
+  height: 150px;
 }
 
 .produtos{
   margin-top: 100px;
+  margin-left: 35px;
   display: flex;
 }
 
@@ -157,7 +191,8 @@ body {
 .imagemComanda img{
   height: 250px;
   width: 350px;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .motax{
@@ -167,23 +202,30 @@ body {
 .imagemMotax img{
   height: 250px;
   width: 350px;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .apresentacaoComanda{
-  height: 200px;
-  width: 300px;
+  height: 120px;
+  width: 350px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
-  margin-left: 25px;
+  margin-top: -17px;
+  background-color: #8ed8ec;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .apresentacaoMotax{
-  height: 200px;
-  width: 300px;
+  height: 120px;
+  width: 350px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
-  margin-left: 25px;
+  margin-top: -17px;
+  background-color: #8ed8ec;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 /*=======================Section========================*/
 
