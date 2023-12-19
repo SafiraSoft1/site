@@ -72,28 +72,78 @@ body {
 }
 /*=======================Section========================*/
 .container1 {
+  height: 300px;
   display: flex;
-  transition: background-color 1s ease ;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
   margin-top: 100px;
+  transition: background-color 1s ease ;
 }
 
 .container1:hover{
   background-color: #8ED8EC;
 }
 
+.esquerdo1{
+  height: 300px;
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'ubuntu', sans-serif;    
+  text-align: justify;
+  font-size: 25px;
+}
+
+.direito1{
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.direito1 img{
+  width: 500px;
+  height: 300px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
 .container2 {
   display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
   margin-top: 100px;
   transition: background-color 1s ease ;
-  height: 200px;
 }
 
 .container2:hover{
   background-color: #8ED8EC;
 }
 
+.esquerdo2{
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.esquerdo2 img{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.direito2{
+  height: 200px;
+  font-family: 'ubuntu', sans-serif;
+  text-align: justify;
+  font-size: 25px;
+}
+
 .container3 {
   display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
   margin-top: 100px;
   transition: background-color 1s ease ;
 }
@@ -102,90 +152,34 @@ body {
   background-color: #8ED8EC;
 }
 
-.esquerdo1{
-  display:inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 100px;
-  height: 250px;
-  width: 550px;
-  font-family: 'ubuntu', sans-serif;    
-  text-align: justify;
-  font-size: 25px;
-}
-.direito1 {
-  background-color: white;
-  margin-left: 100px;
-  width: 700px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-
-.direito1 img {
-  margin-left: 50px;
-  height: 250px;
-  width: 450px;
-}
-
-.esquerdo2{
-  background-color: white;
-  width: 500px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.esquerdo2 img{
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  margin-left: 250px;
-}
-
-
-.direito2{
-  height: 250px;
-  width: 550px;
-  border-radius: 20px;
-  font-family: 'ubuntu', sans-serif;
-  text-align: justify;
-  font-size: 25px;
-  margin-left: 200px;
-  margin-top: -15px;
-}
-
 .esquerdo3{
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
   font-size: 25px;
-  height: 250px;
-  width: 550px;
   border-radius: 20px;
-  margin-left: 100px;
 }
 
 .direito3{
-  margin-left: 100px;
   background-color: white;
-  width: 700px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
 .direito3 img{
-  margin-top: 40px;
-  margin-left: 50px;
-  width: 400px;
-  height: 150px;
+  width: 500px;
+  height: 200px;
 }
 
-.produtos{
-  margin-top: 100px;
-  margin-left: 35px;
+.produtos{  
   display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .comandaDigital{
-  margin-left: 200px;
+  padding-right: 100px;
 }
 
 .imagemComanda img{
@@ -193,10 +187,6 @@ body {
   width: 350px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-}
-
-.motax{
-  margin-left: 200px;
 }
 
 .imagemMotax img{
@@ -207,28 +197,26 @@ body {
 }
 
 .apresentacaoComanda{
+  margin-top: -17px;
   height: 120px;
   width: 350px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
-  margin-top: -17px;
   background-color: #8ed8ec;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 .apresentacaoMotax{
+  margin-top: -17px;
   height: 120px;
   width: 350px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
-  margin-top: -17px;
   background-color: #8ed8ec;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-/*=======================Section========================*/
-
 
 /* ===================== Footer ======================  */
 
