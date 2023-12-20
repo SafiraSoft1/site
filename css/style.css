@@ -9,11 +9,11 @@ body {
 
 @keyframes degrade-animado {
   0% {
-    background-position-x: 0%, 50% ;
+    background-position-x: 0%, 50%;
   }
 
   50% {
-    background-position-x:  50%, 100% ;
+    background-position-x: 50%, 100%;
   }
 
   100% {
@@ -23,8 +23,8 @@ body {
 }
 
 .cabecalho {
-  animation: degrade-animado 3s  ;
-  background-image: linear-gradient(to right, #f4f7f8,#eaf7fc, #d2f1fa, #dbf5ff, #44c8f0) ;
+  animation: degrade-animado 3s;
+  background-image: linear-gradient(to right, #f4f7f8, #eaf7fc, #d2f1fa, #dbf5ff, #44c8f0);
   background-size: 300% 300%;
   height: 100px;
 }
@@ -36,7 +36,7 @@ body {
   margin-left: 50px;
 }
 
-.logo img{
+.logo img {
   height: 100%;
 }
 
@@ -46,7 +46,7 @@ body {
   padding: 25px;
   float: right;
   align-items: center;
-  
+
 }
 
 
@@ -67,9 +67,9 @@ body {
 .menu a:hover,
 .menu a::selection {
   border-radius: 5px;
-  background-color:rgb(255, 255, 255);
-  color:rgb(18, 126, 168);
-  
+  background-color: rgb(255, 255, 255);
+  color: rgb(18, 126, 168);
+
 }
 /*=======================Section========================*/
 .containerGeral{
@@ -79,38 +79,40 @@ body {
 
 .container1 {
   height: 300px;
+  width: 1200px;
   display: flex;
   justify-content: center;
+  justify-items: center;
   align-items: center;
   margin-top: 100px;
-  transition: background-color 1s ease ;
+  transition: background-color 1s ease;
 }
 
-.container1:hover{
+.container1:hover {
   background-color: #8ED8EC;
 }
 
-.esquerdo1{
+.esquerdo1 {
   height: 300px;
-  width: 400px;
-  padding-right: 50px;
-  display:inline-flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-family: 'ubuntu', sans-serif;    
+  font-family: 'ubuntu', sans-serif;
   text-align: justify;
   font-size: 25px;
 }
 
-.direito1{
+.direito1 {
   background-color: white;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
-.direito1 img{
+.direito1 img {
   width: 500px;
   height: 300px;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .container2 {
@@ -119,25 +121,25 @@ body {
   justify-items: center;
   align-items: center;
   margin-top: 100px;
-  transition: background-color 1s ease ;
+  transition: background-color 1s ease;
 }
 
-.container2:hover{
+.container2:hover {
   background-color: #8ED8EC;
 }
 
-.esquerdo2{
+.esquerdo2 {
   background-color: white;
-  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
-.esquerdo2 img{
-  border-radius: 20px;
+.esquerdo2 img {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
-.direito2{
-  padding-left: 50px;
-  width: 500px;
+.direito2 {
   height: 200px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
@@ -150,106 +152,93 @@ body {
   justify-items: center;
   align-items: center;
   margin-top: 100px;
-  transition: background-color 1s ease ;
+  transition: background-color 1s ease;
 }
 
-.container3:hover{ 
+.container3:hover {
   background-color: #8ED8EC;
 }
 
-.esquerdo3{
-  padding-right: 50px;
-  width: 500px;
+.esquerdo3 {
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
   font-size: 25px;
+  border-radius: 20px;
 }
 
-.direito3{
+.direito3 {
   background-color: white;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
-.direito3 img{
-  width: 600px;
-  height: 225px;
-  border-radius: 20px;
+.direito3 img {
+  width: 500px;
+  height: 200px;
 }
 
-.container4{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.produtos{  
+.produtos {
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
   margin-top: 100px;
+}
+
+.comandaDigital {
+  padding-right: 100px;
+}
+
+.imagemComanda img {
+  height: 250px;
+  width: 350px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.imagemMotax img {
+  height: 250px;
+  width: 350px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.apresentacaoComanda {
+  margin-top: -17px;
+  height: 120px;
+  width: 350px;
+  font-family: 'ubuntu', sans-serif;
+  text-align: justify;
   background-color: #8ed8ec;
-  height: 500px;
-  width: 1100px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 50px;
   border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.comandaDigital{
-  padding-right: 125px;
-}
-
-.imagemComanda img{
-  height: 250px;
-  width: 350px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 75px;
-}
-
-.imagemMotax img{
-  height: 250px;
-  width: 350px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 75px;
-}
-
-.apresentacaoComanda{
+.apresentacaoMotax {
   margin-top: -17px;
   height: 120px;
   width: 350px;
   font-family: 'ubuntu', sans-serif;
-  text-align: left;
-  background-color: white;
+  text-align: justify;
+  background-color: #8ed8ec;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 75px;
+  border-bottom-right-radius: 10px;
 }
 
-.apresentacaoMotax{
-  margin-top: -17px;
-  height: 120px;
-  width: 350px;
-  font-family: 'ubuntu', sans-serif;
-  text-align: left;
-  background-color: white;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 75px;
-}
 /*=======================Section========================*/
-section{
-  position: relative;  
+section {
+  position: relative;
   display: flex;
   align-items: center;
   margin: 60px 0 60px 0;
 }
 
-.swiper{
+.swiper {
   width: 1450px;
 
 }
 
-.card{
+.card {
   position: relative;
   background: #fff;
   border-radius: 20px;
@@ -257,17 +246,17 @@ section{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card::before{
+.card::before {
   content: "";
   position: absolute;
   height: 40%;
   width: 100%;
   background: #3dbadd;
   border-radius: 20px 20px 0 0;
-  
+
 }
 
-.card .card-content{
+.card .card-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -277,7 +266,7 @@ section{
   height: 370px;
 }
 
-section .card .image{
+section .card .image {
   height: 140px;
   width: 140px;
   border-radius: 50%;
@@ -285,7 +274,7 @@ section .card .image{
   background: #3dbadd;
 }
 
-section .card .image img{
+section .card .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -293,125 +282,131 @@ section .card .image img{
   border: 3.5px solid #fff;
 }
 
-.card .media-icons{
+.card .media-icons {
   position: absolute;
   top: 280px;
 
   display: flex;
   align-items: center;
-  
+
   justify-content: space-around;
- 
+
 }
 
-.card .media-icons i{
+.card .media-icons i {
   color: black;
   opacity: 0.6;
   margin-top: 10px;
   transition: all 0.3s ease;
   cursor: pointer;
-  padding:20px;
-  
+  padding: 20px;
+
 }
 
 
-.card .media-icons i:hover{
+.card .media-icons i:hover {
   opacity: 2;
 }
 
-.card .name-profession{
+.card .name-profession {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
-  
-} 
 
-.name-profession .name{
+}
+
+.name-profession .name {
   font-size: 20px;
   font-weight: 600;
 }
 
-.name-profession .profession{
+.name-profession .profession {
   padding: 5px;
-  font-size:14.5px;
+  font-size: 14.5px;
   font-weight: 500;
   font-style: italic;
- color: #666;
- opacity: .8;
+  color: #666;
+  opacity: .8;
 }
 
-.card .rating{
+.card .rating {
   display: flex;
   align-items: center;
   margin-top: 18px;
 }
 
-.card .rating i{
+.card .rating i {
   font-size: 18px;
   margin: 0 2px;
   color: #7d2ae8;
 }
 
-.card .buttons{
+.card .buttons {
   width: 100%;
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
 
-.card .buttons i{
- 
+.card .buttons i {
+
   outline: none;
   border: none;
   color: black;
   padding: 8px 22px;
-  
+
   font-size: 25px;
   transition: transform 250ms;
   cursor: pointer;
 }
 
-.buttons i:hover{
-transform: translateY(-10px);
- 
+.buttons i:hover {
+  transform: translateY(-10px);
+
 }
-.swiper-slide{
+
+.swiper-slide {
   height: 90%;
   display: block;
   flex-shrink: 0;
 }
 
-.swiper-pagination{
+.swiper-pagination {
   position: absolute;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   height: 7px;
   width: 26px;
   border-radius: 25px;
   background: #7d2ae8;
 }
 
-.swiper-button-next, .swiper-button-prev{
+.swiper-button-next,
+.swiper-button-prev {
   opacity: 0.7;
   color: #7d2ae8;
   transition: all 0.3s ease;
 }
-.swiper-button-next:hover, .swiper-button-prev:hover{
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
   opacity: 1;
   color: #7d2ae8;
 }
+
 /* ===================== Footer ======================  */
 
-footer{
+footer {
   width: 100%;
   min-height: 300px;
   background-image: linear-gradient(to right, rgb(84, 207, 232), rgb(142, 216, 236));
   display: flex;
   justify-content: center;
-  
+
 }
+
 .empresa {
   width: 280px;
   min-height: 100px;
@@ -419,28 +414,35 @@ footer{
   margin-left: -80px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 30px;
+
 }
+
 .empresa h2 {
   margin-bottom: 20px;
   font-size: 30px;
 }
+
 .empresa ul li {
   margin: 25px 0px;
   list-style: none;
   margin-left: -33px;
   align-items: center;
-  
+  font-size: 16px;
+  line-height: 1;
+
+
 }
+
 .empresa ul li a {
   text-decoration: none;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   align-items: center;
   display: flex;
-  line-height: 1;
 }
-.servico{
+
+.servico {
   width: 280px;
   min-height: 100px;
   padding: 20px;
@@ -448,28 +450,35 @@ footer{
   margin-left: -50px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 30px;
+
 }
-.servico h2{
+
+.servico h2 {
   margin-bottom: 20px;
   font-size: 30px;
+  
 }
-.servico ul li{
+
+.servico ul li {
   margin: 25px 0px;
   list-style: none;
   margin-left: -33px;
   align-items: center;
 }
-.servico ul li a{
+
+.servico ul li a {
   text-decoration: none;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   align-items: center;
   display: flex;
+  font-size: 16px;
   line-height: 1;
-  
+
 }
-.suporte{
+
+.suporte {
   width: 150px;
   min-height: 100px;
   padding: 20px;
@@ -478,27 +487,32 @@ footer{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 30px;
 }
-.suporte h2{
+
+.suporte h2 {
   margin-bottom: 20px;
   font-size: 30px;
 }
-.suporte ul li{
+
+.suporte ul li {
   margin: 25px 0px;
   list-style: none;
   margin-left: -33px;
   align-items: center;
-  
+
 }
-.suporte ul li a{
+
+.suporte ul li a {
   text-decoration: none;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   align-items: center;
   display: flex;
+  font-size: 16px;
   line-height: 1;
 }
-.log{
+
+.log {
   display: flex;
   width: 250px;
   height: 150px;
@@ -508,6 +522,7 @@ footer{
   left: 0;
   border-radius: 10px;
 }
+
 .footer-link {
   padding: 0px 0px.0px;
   font-size: 25px;
@@ -515,13 +530,6 @@ footer{
   left: 100px;
   position: relative;
   justify-content: center;
-  top: 100px; 
-  text-decoration: none 
+  top: 100px;
+  text-decoration: none
 }
- 
-
-
-
-
-
-                    
