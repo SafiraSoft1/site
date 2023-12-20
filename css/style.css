@@ -71,12 +71,15 @@ body {
   
 }
 /*=======================Section========================*/
+.containerGeral{
+  justify-content: center;
+  align-items: center;
+}
+
 .container1 {
   height: 300px;
-  width: 1200px;
   display: flex;
   justify-content: center;
-  justify-items: center;
   align-items: center;
   margin-top: 100px;
   transition: background-color 1s ease ;
@@ -88,6 +91,8 @@ body {
 
 .esquerdo1{
   height: 300px;
+  width: 400px;
+  padding-right: 50px;
   display:inline-flex;
   justify-content: center;
   align-items: center;
@@ -98,15 +103,13 @@ body {
 
 .direito1{
   background-color: white;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
 }
 
 .direito1 img{
   width: 500px;
   height: 300px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
 }
 
 .container2 {
@@ -124,16 +127,16 @@ body {
 
 .esquerdo2{
   background-color: white;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
 }
 
 .esquerdo2 img{
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
 }
 
 .direito2{
+  padding-left: 50px;
+  width: 500px;
   height: 200px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
@@ -154,21 +157,28 @@ body {
 }
 
 .esquerdo3{
+  padding-right: 50px;
+  width: 500px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
   font-size: 25px;
-  border-radius: 20px;
 }
 
 .direito3{
   background-color: white;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
 }
 
 .direito3 img{
-  width: 500px;
-  height: 200px;
+  width: 600px;
+  height: 225px;
+  border-radius: 20px;
+}
+
+.container4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .produtos{  
@@ -177,24 +187,31 @@ body {
   justify-items: center;
   align-items: center;
   margin-top: 100px;
+  background-color: #8ed8ec;
+  height: 500px;
+  width: 1100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 10px;
 }
 
 .comandaDigital{
-  padding-right: 100px;
+  padding-right: 125px;
 }
 
 .imagemComanda img{
   height: 250px;
   width: 350px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 75px;
 }
 
 .imagemMotax img{
   height: 250px;
   width: 350px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 75px;
 }
 
 .apresentacaoComanda{
@@ -202,10 +219,10 @@ body {
   height: 120px;
   width: 350px;
   font-family: 'ubuntu', sans-serif;
-  text-align: justify;
-  background-color: #8ed8ec;
+  text-align: left;
+  background-color: white;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 75px;
 }
 
 .apresentacaoMotax{
@@ -213,10 +230,10 @@ body {
   height: 120px;
   width: 350px;
   font-family: 'ubuntu', sans-serif;
-  text-align: justify;
-  background-color: #8ed8ec;
+  text-align: left;
+  background-color: white;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 75px;
 }
 
 /* ===================== Footer ======================  */
