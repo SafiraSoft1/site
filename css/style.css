@@ -73,6 +73,7 @@ body {
 /*=======================Section========================*/
 .container1 {
   height: 300px;
+  width: 1200px;
   display: flex;
   justify-content: center;
   justify-items: center;
