@@ -177,12 +177,26 @@ body {
   height: 200px;
 }
 
+.container4{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
 .produtos {
+  background-color: #8ED8EC;
+  height: 500px;
+  width: 1000px;
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
   margin-top: 100px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 100px;
 }
 
 .comandaDigital {
@@ -192,15 +206,15 @@ body {
 .imagemComanda img {
   height: 250px;
   width: 350px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 75px;
 }
 
 .imagemMotax img {
   height: 250px;
   width: 350px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 75px;
 }
 
 .apresentacaoComanda {
@@ -208,10 +222,10 @@ body {
   height: 120px;
   width: 350px;
   font-family: 'ubuntu', sans-serif;
-  text-align: justify;
-  background-color: #8ed8ec;
+  text-align: left;
+  background-color:white;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 75px;
 }
 
 .apresentacaoMotax {
@@ -219,10 +233,10 @@ body {
   height: 120px;
   width: 350px;
   font-family: 'ubuntu', sans-serif;
-  text-align: justify;
-  background-color: #8ed8ec;
+  text-align: left;
+  background-color: white;
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 75px;
 }
 
 /*=======================Section========================*/
