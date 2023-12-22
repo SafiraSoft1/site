@@ -209,6 +209,7 @@ body {
 .imagemComanda img {
   height: 250px;
   width: 350px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
   border-top-right-radius: 10px;
   border-top-left-radius: 75px;
 }
@@ -218,6 +219,7 @@ body {
   width: 350px;
   border-top-right-radius: 10px;
   border-top-left-radius: 75px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
 }
 
 .apresentacaoComanda {
@@ -229,6 +231,7 @@ body {
   background-color:white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 75px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
 }
 
 .apresentacaoMotax {
@@ -240,6 +243,7 @@ body {
   background-color: white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 75px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
 }
 
 /*=======================Section========================*/
