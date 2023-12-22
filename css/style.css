@@ -78,8 +78,6 @@ body {
 }
 
 .container1 {
-  height: 300px;
-  width: 1200px;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -94,6 +92,8 @@ body {
 
 .esquerdo1 {
   height: 300px;
+  width: 600px;
+  padding: 50px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -104,15 +104,13 @@ body {
 
 .direito1 {
   background-color: white;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
 }
 
 .direito1 img {
   width: 500px;
   height: 300px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
 }
 
 .container2 {
@@ -130,17 +128,19 @@ body {
 
 .esquerdo2 {
   background-color: white;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
 }
 
 .esquerdo2 img {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  height: 220px;
+  width: 320px;
+  border-radius: 20px;
 }
 
 .direito2 {
-  height: 200px;
+  padding-left: 50px;
+  height: 220px;
+  width: 600px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
   font-size: 25px;
@@ -160,6 +160,9 @@ body {
 }
 
 .esquerdo3 {
+  padding-right: 50px;
+  height: 220px;
+  width: 600px;
   font-family: 'ubuntu', sans-serif;
   text-align: justify;
   font-size: 25px;
@@ -168,13 +171,13 @@ body {
 
 .direito3 {
   background-color: white;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 20px;
 }
 
 .direito3 img {
-  width: 500px;
-  height: 200px;
+  width: 650px;
+  height: 250px;
+  border-radius: 20px;
 }
 
 .container4{
