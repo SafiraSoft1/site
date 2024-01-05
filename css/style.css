@@ -190,7 +190,7 @@ body {
 .produtos {
   background-color: #8ED8EC;
   height: 500px;
-  width: 1000px;
+  width: 1100px;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -204,6 +204,15 @@ body {
 
 .comandaDigital {
   padding-right: 100px;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.comandaDigital:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .imagemComanda img {
@@ -212,6 +221,19 @@ body {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
   border-top-right-radius: 10px;
   border-top-left-radius: 75px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
+}
+
+.motax{
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.motax:hover{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .imagemMotax img {
